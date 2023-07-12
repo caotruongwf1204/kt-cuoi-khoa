@@ -7,6 +7,7 @@
 
 
 body {
+  /* width: 1920px; */
   display: flex;
   justify-content: center;
 }
@@ -44,7 +45,8 @@ body {
   left: 0;
   position: absolute;
   font-size: 20px;
-  
+  cursor: pointer;
+  z-index: 1;
 }
 .header .top-header .logo {
   display: flex;
@@ -79,6 +81,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+  z-index: 1;
 }
 .header .top-header .account .button-1 i , 
 .header .top-header .account .button-2 i {
@@ -690,6 +694,87 @@ height: 55px;
   gap: 18px;
   position: relative;
 }
+.grid-products .products .card:hover .access-product {
+  display: block;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 15px 14px;
+  gap: 97px;
+  position: absolute;
+  width: 312px;
+  height: 55px;
+  background: var(--black, #1E2832);
+  margin-top: 345px;
+}
+.grid-products .products .card .access-product {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 15px 14px;
+  gap: 97px;
+  position: absolute;
+  width: 312px;
+  height: 55px;
+  background: var(--black, #1E2832);
+  margin-top: 345px;
+  display: none;
+}
+.grid-products .products .card .access-product .left {
+  width: 71px;
+  height: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.grid-products .products .card .access-product .left i {
+  display: flex;
+  width: 25px;
+  height: 25px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: var(--white, #FFF);
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.grid-products .products .card .access-product button {
+  width: 116px;
+  height: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  background-color: #1E2832;
+  color: #fff;
+  border: none;
+}
+.grid-products .products .card .access-product button i {
+  display: flex;
+  width: 25px;
+  height: 25px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: var(--white, #FFF);
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.grid-products .products .card .access-product button p {
+  color: var(--white, #FFF);
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
 .grid-products .products .card .ribbonn {
   width: 52px;
   height: 24px;
@@ -774,6 +859,87 @@ height: 55px;
   align-items: center;
   gap: 18px;
   position: relative;
+}
+.grid-products .products .card-red:hover .access-product {
+  display: block;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 15px 14px;
+  gap: 97px;
+  position: absolute;
+  width: 312px;
+  height: 55px;
+  background: var(--black, #1E2832);
+  margin-top: 345px;
+}
+.grid-products .products .card-red .access-product {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 15px 14px;
+  gap: 97px;
+  position: absolute;
+  width: 312px;
+  height: 55px;
+  background: var(--black, #1E2832);
+  margin-top: 345px;
+  display: none;
+}
+.grid-products .products .card-red .access-product .left {
+  width: 71px;
+  height: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.grid-products .products .card-red .access-product .left i {
+  display: flex;
+  width: 25px;
+  height: 25px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: var(--white, #FFF);
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.grid-products .products .card-red .access-product button {
+  width: 116px;
+  height: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  background-color: #1E2832;
+  color: #fff;
+  border: none;
+}
+.grid-products .products .card-red .access-product button i {
+  display: flex;
+  width: 25px;
+  height: 25px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: var(--white, #FFF);
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.grid-products .products .card-red .access-product button p {
+  color: var(--white, #FFF);
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
 }
 .grid-products .products .card-red .ribbon{
   width: 52px;
@@ -1195,6 +1361,15 @@ height: 55px;
   gap: 70px;
   background: var(--black-5, rgba(30, 40, 50, 0.05));
 }
+/* ===============slider./the end==================== */
+
+
+
+
+
+
+/*================= newsletter-instagram./start
+ ================*/
 .newsletter-instagram .instagram {
   width: 1320px;
   height: 319px;
@@ -1212,13 +1387,69 @@ height: 55px;
   text-transform: capitalize;
 }
 .newsletter-instagram .instagram .img {
-  display: flex;
   flex-shrink: 0;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
   margin-top: 60px;
+  width: 1320px;
+  height: 200px;
+}
+.newsletter-instagram .instagram .img .img-1,
+.newsletter-instagram .instagram .img .img-2,
+.newsletter-instagram .instagram .img .img-3,
+.newsletter-instagram .instagram .img .img-4,
+.newsletter-instagram .instagram .img .img-5,
+.newsletter-instagram .instagram .img .img-6 {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.newsletter-instagram .instagram .img .img-1:hover .icon-1, 
+.newsletter-instagram .instagram .img .img-2:hover .icon-2,
+.newsletter-instagram .instagram .img .img-3:hover .icon-3,
+.newsletter-instagram .instagram .img .img-4:hover .icon-4,
+.newsletter-instagram .instagram .img .img-5:hover .icon-5,
+.newsletter-instagram .instagram .img .img-6:hover .icon-6 {
+  display: flex;
+}
+.newsletter-instagram .instagram .img .icon-1,
+.newsletter-instagram .instagram .img .icon-2,
+.newsletter-instagram .instagram .img .icon-3,
+.newsletter-instagram .instagram .img .icon-4,
+.newsletter-instagram .instagram .img .icon-5,
+.newsletter-instagram .instagram .img .icon-6 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--dark-50, rgba(0, 0, 0, 0.50));
+  opacity: 0.8;
+  display: none;
+}
+.newsletter-instagram .instagram .img .icon-1 i,
+.newsletter-instagram .instagram .img .icon-2 i,
+.newsletter-instagram .instagram .img .icon-3 i,
+.newsletter-instagram .instagram .img .icon-4 i,
+.newsletter-instagram .instagram .img .icon-5 i,
+.newsletter-instagram .instagram .img .icon-6 i {
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--white, #FFF);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 .newsletter-instagram .newsletter {
   width: 760px;
@@ -1297,7 +1528,7 @@ height: 55px;
   color: #FF6F61;
   border-bottom: 2px solid #FF6F61;
 }
-/*================= slider./the end ================*/
+/*================= newsletter-instagram./the end ================*/
 
 
 
