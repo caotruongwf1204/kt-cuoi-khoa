@@ -195,6 +195,11 @@ height: 55px;
   margin-left: 4px;
   background: var(--black, #1E2832);
   border: none;
+  cursor: pointer;
+  z-index: 1;
+}
+.top-main .product .content button:hover {
+  background-color: #FF6F61;
 }
 .top-main .product .content button i {
   color: #fff;
@@ -312,6 +317,39 @@ height: 55px;
   align-items: center;
   flex-shrink: 0;
   left: 0;
+  position: relative;
+}
+.hot-category .card .card1 .bottom-category {
+  position: absolute;
+  width: 100%;
+  height: 0;
+  display: flex;
+  padding: 15px 14px;
+  justify-content: space-between;
+  align-items: center;
+  bottom: 0;
+  background-color: #1E2832;
+  display: none;
+}
+.hot-category .card .card1:hover .bottom-category {
+  display: block;
+  width: 100%;
+  height: 52px;
+  display: flex;
+  padding: 15px 14px;
+  justify-content: space-between;
+  align-items: center;
+  bottom: 0;
+  background-color: #1E2832;
+}
+.hot-category .card .card1 .bottom-category h6 {
+  color: var(--white, #FFF);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
 }
 .hot-category .card .card-right {
   display: flex;
@@ -352,6 +390,38 @@ height: 55px;
   left: 0;
   margin-left: 24px;
 }
+.hot-category .card .card-right .card2 .bottom-category {
+  position: absolute;
+  width: 100%;
+  height: 0;
+  display: flex;
+  padding: 15px 14px;
+  justify-content: space-between;
+  align-items: center;
+  bottom: 0;
+  background-color: #1E2832;
+  display: none;
+}
+.hot-category .card .card-right .card2:hover .bottom-category {
+  display: block;
+  width: 312px;
+  height: 52px;
+  display: flex;
+  padding: 15px 14px;
+  justify-content: space-between;
+  align-items: center;
+  bottom: 0;
+  background-color: #1E2832;
+}
+.hot-category .card .card-right .card2 .bottom-category h6 {
+  color: var(--white, #FFF);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
 .hot-category .card .card-right .card3 {
   width: 312px;
   height: 312px;
@@ -359,6 +429,38 @@ height: 55px;
   top: 0;
   right: 0;
   position: absolute;
+}
+.hot-category .card .card-right .card3 .bottom-category {
+  position: absolute;
+  width: 100%;
+  height: 0;
+  display: flex;
+  padding: 15px 14px;
+  justify-content: space-between;
+  align-items: center;
+  bottom: 0;
+  background-color: #1E2832;
+  display: none;
+}
+.hot-category .card .card-right .card3:hover .bottom-category {
+  display: block;
+  width: 312px;
+  height: 52px;
+  display: flex;
+  padding: 15px 14px;
+  justify-content: space-between;
+  align-items: center;
+  bottom: 0;
+  background-color: #1E2832;
+}
+.hot-category .card .card-right .card3 .bottom-category h6 {
+  color: var(--white, #FFF);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
 }
 .hot-category .card .card-right .card4 {
   display: flex;
@@ -370,6 +472,38 @@ height: 55px;
   left: 0;
   margin-left: 24px;
 }
+.hot-category .card .card-right .card4 .bottom-category {
+  position: absolute;
+  width: 100%;
+  height: 0;
+  display: flex;
+  padding: 15px 14px;
+  justify-content: space-between;
+  align-items: center;
+  bottom: 0;
+  background-color: #1E2832;
+  display: none;
+}
+.hot-category .card .card-right .card4:hover .bottom-category {
+  display: block;
+  width: 312px;
+  height: 52px;
+  display: flex;
+  padding: 15px 14px;
+  justify-content: space-between;
+  align-items: center;
+  bottom: 0;
+  background-color: #1E2832;
+}
+.hot-category .card .card-right .card4 .bottom-category h6 {
+  color: var(--white, #FFF);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
 .hot-category .card .card-right .card5 {
   width: 312px;
   height: 312px;
@@ -377,6 +511,38 @@ height: 55px;
   bottom: 0;
   right: 0;
   position: absolute;
+}
+.hot-category .card .card-right .card5 .bottom-category {
+  position: absolute;
+  width: 100%;
+  height: 0;
+  display: flex;
+  padding: 15px 14px;
+  justify-content: space-between;
+  align-items: center;
+  bottom: 0;
+  background-color: #1E2832;
+  display: none;
+}
+.hot-category .card .card-right .card5 .bottom-category h6 {
+  color: var(--white, #FFF);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.hot-category .card .card-right .card5:hover .bottom-category {
+  display: block;
+  width: 312px;
+  height: 52px;
+  display: flex;
+  padding: 15px 14px;
+  justify-content: space-between;
+  align-items: center;
+  bottom: 0;
+  background-color: #1E2832;
 }
 .hot-category .card .card-right .ribon {
   width: 52px;
@@ -455,6 +621,9 @@ height: 55px;
   line-height: normal;
   text-transform: capitalize;
 }
+.grid-products .top-section-products ul li p:hover {
+  color: #FF6F61;
+}
 .grid-products .top-section-products ul li {
   color: var(--dark-50, rgba(0, 0, 0, 0.50));
   font-family: Open Sans;
@@ -463,6 +632,9 @@ height: 55px;
   font-weight: 600;
   line-height: normal;
   text-transform: capitalize;
+}
+.grid-products .top-section-products ul li:hover {
+  color: #FF6F61;
 }
 .grid-products .top-section-products button {
   background: var(--black, #1E2832);
@@ -476,6 +648,10 @@ height: 55px;
   display: flex;
   color: #fff;
   border: none;
+  cursor: pointer;
+}
+.grid-products .top-section-products button:hover {
+  background-color: #FF6F61;
 }
 .grid-products .top-section-products button i {
   display: flex;
@@ -751,6 +927,11 @@ height: 55px;
   font-weight: 600;
   line-height: normal;
   text-transform: capitalize;
+  cursor: pointer;
+}
+.brand-banner .button button:hover {
+  background-color: #FF6F61;
+  color: #fff;
 }
 /*=================== brand-banner./the end=============== */
 
@@ -842,6 +1023,10 @@ height: 55px;
   font-weight: 400;
   line-height: normal;
   text-transform: capitalize;
+  cursor: pointer;
+}
+.slider-products .top-section button:hover {
+  background-color: #FF6F61;
 }
 .slider-products .slider {
   width: 1320px;
@@ -1335,6 +1520,9 @@ height: 55px;
   gap: 4px;
   border: none;
   background-color: #1E2832;
+}
+.footer .bottom-footer button:hover {
+  background-color: #FF6F61;
 }
 .footer .bottom-footer button p {
   color: var(--white, #FFF);
