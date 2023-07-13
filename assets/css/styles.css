@@ -695,7 +695,6 @@ height: 55px;
   position: relative;
 }
 .grid-products .products .card:hover .access-product {
-  display: block;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -1162,6 +1161,9 @@ height: 55px;
   line-height: normal;
   text-transform: capitalize;
 }
+.slider-products .top-section ul li p:hover {
+  color: #FF6F61;
+}
 .slider-products .top-section ul li {
   color: var(--dark-50, rgba(0, 0, 0, 0.50));
   font-family: Open Sans;
@@ -1170,6 +1172,9 @@ height: 55px;
   font-weight: 600;
   line-height: normal;
   text-transform: capitalize;
+}
+.slider-products .top-section ul li:hover {
+  color: #FF6F61;
 }
 .slider-products .top-section button {
   background: var(--black, #1E2832);
